@@ -5,6 +5,7 @@ cd "$(dirname "$0")"
 rm -rf ../replication_results
 
 # build the project
+cd ../execution/gi_cbrt/cbrt/
 csh build.bat
 
 # create the replication result folder AFTER SUCCESS

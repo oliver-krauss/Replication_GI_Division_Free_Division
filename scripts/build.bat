@@ -16,7 +16,7 @@ csh ./compile.bat
 # conduct the tests
 csh ./test.bat > test.out
 csh ./test2.bat > test2.out
-csh ./test_exp.bat > fuzz_exp.out
+csh ./test_etc.bat > test_etc.out
 csh ./fuzz1.bat > fuzz1.out
 csh ./fuzz_exp.bat > fuzz_exp.out
 csh ./fuzz_int.bat > fuzz_int.out
