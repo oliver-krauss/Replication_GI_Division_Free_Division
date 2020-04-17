@@ -14,7 +14,7 @@ gawk -f ../log2/make_t_log2.awk gi_t_inv.out > t_invsqrt.c
 csh ./compile.bat
 
 # conduct the tests
-csh ../cbrt/test.bat > test.out
+csh ../cbrt/test_1.bat > test_1.out
 csh ../cbrt/test2.bat > test2.out
 csh ../cbrt/fuzz1.bat > fuzz1.out
 csh ../cbrt/fuzz_exp.bat > fuzz_exp.out

@@ -27,6 +27,6 @@ Replicate using the following steps:
 - (optional) __scripts__ you may need to make scripts executable with `chmod +x *.sh`
 - __unpack.sh__ will unpack to an execution folder (warning execution folder WILL be deleted by unpack), and build glibc
 - __replicate.sh__ runs the compilation, CMA-ES execution, and tests of the lookup table
-- You'll know if the replication succeeded when the foler "replication_results" is created and contains:
+- You'll know if the replication succeeded when the folder "replication_results" is created and contains:
   - the generated lookup table (t_cbrt.c)
   - the outputs of the test scripts (*.out)
