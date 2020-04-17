@@ -30,3 +30,7 @@ Replicate using the following steps:
 - You'll know if the replication succeeded when the folder "replication_results" is created and contains:
   - the generated lookup table (t_cbrt.c)
   - the outputs of the test scripts (*.out)
+  
+# Cite this Package
+Releases of this package are assigned a DOI by Zenodo:
+[![DOI](https://zenodo.org/badge/254306965.svg)](https://zenodo.org/badge/latestdoi/254306965)
