@@ -30,3 +30,18 @@ Replicate using the following steps:
 - You'll know if the replication succeeded when the folder "replication_results" is created and contains:
   - the generated lookup table (t_cbrt.c)
   - the outputs of the test scripts (*.out)
+
+### Performance testing
+
+#### Additional preconditions
+
+- Installation of the following __linux packages__ (intentionally not provided as script, as it would have to be run with root privileges):
+  - rcs `sudo apt-get install rcs`
+
+#### Performance testing
+
+Test (not replicate due to different hardware!) using the following steps:
+-  __performance.sh__ executes the benchmark
+- You'll know if the benchmakr succeeded when the folder "performance_results" is created and contains:
+  - The outputs of the tests (*.out)
+  - benchmarking info of your pc (system_info.txt)
