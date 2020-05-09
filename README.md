@@ -5,7 +5,7 @@ This is the replication package for Genetic Improvement of Data gives Division f
 The package contains the source code as described in section IV of the publication and aims to enable the reproduction of section IV b - Automatic changes to data table using CMA-ES and section IV c - Testing the evolved drcp function.
 
 ### Content of the Repository
-- __GI_Data_Gives_Divsion_Free_Division.pdf__ author copy of the submission
+- __Publication.pdf__ author copy of the submission
 - __gi_cbrt.tar.gz__ contains the source code the paper was written on, as described in Section IV Evolving DRCP From Free GNU PowerPC SQRT
 - __dependencies__ contains libraries needed for replication
   - GNU C Library (glibc) - Download from: https://www.gnu.org/software/libc/. Contained file is the exact version that the submission was conducted with.
