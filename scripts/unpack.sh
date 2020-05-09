@@ -40,15 +40,15 @@ cp ../divide_timing/gi_inv.c ./gi_inv.c
 mkdir ../sqrt
 cp ../cbrt/t_sqrt.c ../sqrt/t_sqrt.c
 
-# cbrt must be compiled at least once
-cd ../cbrt
-csh compile.bat
-
 # build glibc
 cd ../../glibc-2.29
 mkdir -p test/build
 cd test/build
 ../../configure --prefix=$build
 make
+
+# cbrt must be compiled at least once AFTER building glibc
+cd ../gi_cbrt/cbrt
+csh compile.bat
 
 

@@ -5,7 +5,7 @@ This is the replication package for Genetic Improvement of Data gives Division f
 The package contains the source code as described in section IV of the publication and aims to enable the reproduction of section IV b - Automatic changes to data table using CMA-ES and section IV c - Testing the evolved drcp function.
 
 ### Content of the Repository
-- __GI_Data_Gives_Divsion_Free_Division.pdf__ author copy of the submission
+- __Publication.pdf__ author copy of the submission
 - __gi_cbrt.tar.gz__ contains the source code the paper was written on, as described in Section IV Evolving DRCP From Free GNU PowerPC SQRT
 - __dependencies__ contains libraries needed for replication
   - GNU C Library (glibc) - Download from: https://www.gnu.org/software/libc/. Contained file is the exact version that the submission was conducted with.
@@ -30,6 +30,21 @@ Replicate using the following steps:
 - You'll know if the replication succeeded when the folder "replication_results" is created and contains:
   - the generated lookup table (t_cbrt.c)
   - the outputs of the test scripts (*.out)
+
+### Performance testing
+
+#### Additional preconditions
+
+- Installation of the following __linux packages__ (intentionally not provided as script, as it would have to be run with root privileges):
+  - rcs `sudo apt-get install rcs`
+
+#### Conducting performance test
+
+Test (not replicate due to different hardware!) using the following steps:
+-  __performance.sh__ executes the benchmark
+- You'll know if the benchmakr succeeded when the folder "performance_results" is created and contains:
+  - The outputs of the tests (*.out)
+  - benchmarking info of your pc (system_info.txt)
   
 # Cite this Package
 Releases of this package are assigned a DOI by Zenodo:
