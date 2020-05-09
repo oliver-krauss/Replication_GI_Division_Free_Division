@@ -38,10 +38,14 @@ Replicate using the following steps:
 - Installation of the following __linux packages__ (intentionally not provided as script, as it would have to be run with root privileges):
   - rcs `sudo apt-get install rcs`
 
-#### Performance testing
+#### Conducting performance test
 
 Test (not replicate due to different hardware!) using the following steps:
 -  __performance.sh__ executes the benchmark
 - You'll know if the benchmakr succeeded when the folder "performance_results" is created and contains:
   - The outputs of the tests (*.out)
   - benchmarking info of your pc (system_info.txt)
+  
+# Cite this Package
+Releases of this package are assigned a DOI by Zenodo:
+[![DOI](https://zenodo.org/badge/254306965.svg)](https://zenodo.org/badge/latestdoi/254306965)
